@@ -1,0 +1,150 @@
+/* Removes padding and margins from everything */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* background colour for page */
+body {
+    background-color: rgb(199, 222, 189);
+}
+
+/* Heading styles */
+h1 {
+    /* Imported fonts */
+    font-family: "Rowdies", sans-serif;
+    /* Font size can now change with size of window */
+    font-size: calc(2rem + 2vw + 2vh);
+    /* Border style */
+    border-style: solid;
+    border-width: 0.5vw;
+    border-radius: 5px;
+    /* Border spacing around all edges*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 451px;
+    padding-right: 451px;
+}
+
+/* centers everything without having to repeat this code */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Arranges images in a column */
+.flex-col {
+    flex-direction: column;
+}
+
+/* One class for width instead or repeating */
+.full-width {
+    width: 100vw;
+}
+
+/* For formating */
+.card {
+    width: 300px;
+}
+
+/* Makes images same size */
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Title styling */
+#title-div {
+    height: 50px;
+    /* Background of title design */
+    background-color: rgb(98, 123, 101);
+    background-size: contain;
+    height: 130px;
+    width: 100vw;
+    /* Font colour */
+    color: floralwhite;
+
+}
+
+/* adds space around cover image */
+#cover-div {
+    margin: 20px;
+}
+
+
+
+/* Cover image styling */
+#cover-img {
+    height: 300px;
+    width: 70%;
+    /* Fits to box without changing aspect ratio */
+    object-fit: cover;
+    /* Poisitions in middle of page */
+    object-position: 50% 50%;
+}
+
+/* When screen gets smaller, so does cover image */
+@media (max-width: 800px) {
+    #cover-img {
+        height: 200px;
+    }
+}
+
+/* When screen size gets too small... */
+@media (max-width: 430px) {
+    #cover-img {
+        /* Image no longer displayed */
+        display: none;
+    }
+}
+
+
+/* ************** */
+/* Gallery styles */
+/* ************** */
+#gallery-div {
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+        "";
+}
+
+/* Changes item layout for a smaller size of screen */
+@media (max-width: 800px) {
+    #gallery-div {
+        grid-template-areas:
+            ""
+    }
+}
+
+/* Changes item layout for a much smaller size of screen */
+@media (max-width: 500px) {
+    #gallery-div {
+        grid-template-areas:
+            ""
+    }
+}
+
+
+/* gallery items */
+#item1 {
+    grid-area: item1;
+}
+
+#item2 {
+    grid-area: item2;
+}
+
+#item3 {
+    grid-area: item3;
+}
+
+#item4 {
+    grid-area: item4;
+}
+
+#item5 {
+    grid-area: item5;
+}
