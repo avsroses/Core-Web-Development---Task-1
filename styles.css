@@ -47,6 +47,7 @@ h1 {
 /* For formating */
 .card {
     width: 300px;
+    margin: 5px;
 }
 
 /* Makes images same size */
@@ -54,6 +55,7 @@ h1 {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    margin: 5px;
 }
 
 /* Title styling */
@@ -87,14 +89,14 @@ h1 {
 }
 
 /* When screen gets smaller, so does cover image */
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     #cover-img {
         height: 200px;
     }
 }
 
 /* When screen size gets too small... */
-@media (max-width: 430px) {
+@media (max-width: 700px) {
     #cover-img {
         /* Image no longer displayed */
         display: none;
@@ -115,7 +117,7 @@ h1 {
 }
 
 /* Changes item layout for a smaller size of screen */
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     #gallery-div {
         grid-template-areas:
             "item1 item2"
@@ -128,7 +130,7 @@ h1 {
 }
 
 /* Changes item layout for a much smaller size of screen */
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     #gallery-div {
         grid-template-areas:
             "item1"
