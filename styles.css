@@ -29,6 +29,12 @@ h1 {
     padding-right: 451px;
 }
 
+@media (max-width: 1200px){
+    h1 {
+        border: none;
+    }
+}
+
 /* centers everything without having to repeat this code */
 .flex-center {
     display: flex;
