@@ -118,7 +118,12 @@ h1 {
 @media (max-width: 800px) {
     #gallery-div {
         grid-template-areas:
-            ""
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item8"
+            "item9 item10"
+            "item11 item12"
     }
 }
 
@@ -126,7 +131,18 @@ h1 {
 @media (max-width: 500px) {
     #gallery-div {
         grid-template-areas:
-            ""
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5"
+            "item6"
+            "item7"
+            "item8"
+            "item9"
+            "item10"
+            "item11"
+            "item12"
     }
 }
 
