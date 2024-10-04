@@ -21,8 +21,8 @@ h1 {
     border-width: 0.5vw;
     border-radius: 5px;
     /* Border spacing around all edges*/
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     padding-left: 451px;
     padding-right: 451px;
 }
@@ -60,7 +60,7 @@ h1 {
 #title-div {
     height: 50px;
     /* Background of title design */
-    background-color: rgb(98, 123, 101);
+    background-color: rgb(77, 79, 114);
     background-size: contain;
     height: 130px;
     width: 100vw;
@@ -81,7 +81,7 @@ h1 {
     height: 300px;
     width: 70%;
     /* Fits to box without changing aspect ratio */
-    object-fit: cover;
+    object-fit: contain;
     /* Poisitions in middle of page */
     object-position: 50% 50%;
 }
@@ -109,7 +109,10 @@ h1 {
     display: grid;
     justify-content: center;
     grid-template-areas:
-        "";
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "item7 item8 item9"
+        "item10 item11 item12";
 }
 
 /* Changes item layout for a smaller size of screen */
