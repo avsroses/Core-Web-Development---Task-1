@@ -6,15 +6,16 @@
 
 /* background colour for page */
 body {
-    background-color: rgb(199, 222, 189);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Heading styles */
 h1 {
+    width: 100vw;
     /* Imported fonts */
     font-family: "Rowdies", sans-serif;
     /* Font size can now change with size of window */
-    font-size: calc(2rem + 2vw + 2vh);
+    font-size: calc(1rem + 2vw + 2vh);
     /* Border style */
     border-style: solid;
     border-width: 0.5vw;
