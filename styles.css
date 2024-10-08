@@ -12,6 +12,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Adds style to text under images */
+p {
+    padding: 5px;
+    background-color: rgb(77, 79, 114);
+    color: floralwhite;
+    border-radius: 5px;
+}
+
 /* Heading styles */
 h1 {
     /* Imported fonts */
@@ -150,7 +158,7 @@ h1 {
 }
 
 /* Changes item layout for a smaller size of screen */
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
     #gallery-div {
         grid-template-areas:
             "item1 item2"
