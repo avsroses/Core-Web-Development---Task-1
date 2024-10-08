@@ -31,8 +31,12 @@ h1 {
 @media (max-width: 1240px){
     h1 {
         font-size: calcl(1rem);
+    }
+}
+
+@media (max-width: 700px){
+    h1 {
         border: none;
-        padding: 0;
     }
 }
 
