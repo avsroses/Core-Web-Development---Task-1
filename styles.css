@@ -82,7 +82,7 @@ h1 {
     /* Font colour */
     color: floralwhite;
     /* Add shadow to font */
-    text-shadow: 2px 2px 5px rgb(224, 219, 210);
+    text-shadow: 2px 2px 2px rgb(208, 203, 195);
 
 }
 
@@ -183,4 +183,32 @@ h1 {
 
 #item5 {
     grid-area: item5;
+}
+
+#item6 {
+    grid-area: item6;
+}
+
+#item7 {
+    grid-area: item7;
+}
+
+#item8 {
+    grid-area: item8;
+}
+
+#item9 {
+    grid-area: item9;
+}
+
+#item10 {
+    grid-area: item10;
+}
+
+#item11 {
+    grid-area: item11;
+}
+
+#item12 {
+    grid-area: item12;
 }
