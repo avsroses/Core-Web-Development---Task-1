@@ -97,7 +97,7 @@ h1 {
 }
 
 /* When screen gets smaller, so does cover image */
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
     #cover-img {
         height: 200px;
     }
