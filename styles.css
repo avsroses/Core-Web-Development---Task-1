@@ -24,8 +24,8 @@ h1 {
     border-radius: 5px;
     /* Border spacing around all edges*/
     padding: 5px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 @media (max-width: 1240px){
