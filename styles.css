@@ -28,17 +28,22 @@ h1 {
     padding-right: 5%;
 }
 
+/* When screen reaches certain size... */
 @media (max-width: 1240px){
     h1 {
+        /* ...Keep title at one size */
         font-size: calcl(1rem);
     }
 }
 
+/* When screen is smaller... */
 @media (max-width: 700px){
     h1 {
+        /* ...No longer display border */
         border: none;
     }
 }
+
 
 /* centers everything without having to repeat this code */
 .flex-center {
@@ -71,6 +76,7 @@ h1 {
     margin: 5px;
 }
 
+
 /* Title styling */
 #title-div {
     height: 50px;
@@ -90,8 +96,6 @@ h1 {
 #cover-div {
     margin: 20px;
 }
-
-
 
 /* Cover image styling */
 #cover-img {
@@ -113,15 +117,18 @@ h1 {
 /* When screen size gets too small... */
 @media (max-width: 700px) {
     #cover-img {
-        /* Image no longer displayed */
+        /* ...Image no longer displayed */
         display: none;
     }
 }
 
 
+
 /* ************** */
 /* Gallery styles */
 /* ************** */
+
+/* Layout of images when full screen */
 #gallery-div {
     display: grid;
     justify-content: center;
@@ -144,7 +151,7 @@ h1 {
     }
 }
 
-/* Changes item layout for a much smaller size of screen */
+/* Changes item layout for an even smaller size of screen */
 @media (max-width: 700px) {
     #gallery-div {
         grid-template-areas:
