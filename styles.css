@@ -81,6 +81,8 @@ h1 {
     width: 100vw;
     /* Font colour */
     color: floralwhite;
+    /* Add shadow to font */
+    text-shadow: 2px 2px 5px rgb(224, 219, 210);
 
 }
 
